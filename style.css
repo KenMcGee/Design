@@ -1,0 +1,95 @@
+body {
+    background-color: #111111;
+    font-family: 'Montserrat', sans-serif;
+}
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    color: white;
+    margin: 40px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-weight: 200;
+}
+#header h1 {
+    font-weight: 700;
+}
+.headerLogo {
+    max-width: 150px;
+}
+#nav {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid white;
+    margin-bottom: 40px;
+}
+#nav h4 {
+    min-width: 33%;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#footer {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    width: 100%
+}
+#footer h5 {
+    min-width: 33%;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.galItem, .galItem img {
+    max-width: 300px;
+    max-height: 300px;
+}
+.galItem {
+    background-size: cover;
+}
+.galLogo {
+    transition: opacity 0.5s;
+}
+.galLogo:hover {
+    opacity:0;
+    filter:alpha(opacity=0);
+}
+.hidden {
+    display: none;
+}
+
+#YOP {
+    background-image: url(images/YOP_GalBG.jpg);
+}
+#ACP {
+    background-image: url(images/ACP_GalBG.jpg);
+}   
+#Turnpike {
+    background-image: url(images/Turnpike_GalBG.jpg);
+}
+#HRCC {
+    background-image: url(images/HRCC_GalBG.jpg);
+}
+#Midyear {
+    background-image: url(images/Midyear_GalBG.jpg);
+}
+#Midyear2 {
+    background-image: url(images/Midyear_GalBG.jpg);
+}
+#PlazaFitz {
+    background-image: url(images/PlazaFitz_GalBG.jpg);
+}
+#Aberr {
+    background-image: url(images/Aberr_GalBG.jpg);
+}
