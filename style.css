@@ -47,25 +47,39 @@ body {
 
 }
 #gallery {
-    
 }
 .galRow {
     display: flex;
     max-width: 1200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 .galItem {
     max-width: 300px;
     max-height: 300px;
     background-size: cover;
-    flex-shrink: 1;
+    margin: 0 auto;
+    padding: 0;
+    flex: 25%;
 }
 .galItem img {
     max-width:100%;
 }
-
-.galLogo {
-    transition: opacity 0.5s;
+@media only screen and (min-width: 992px) {
+    .galLogo {
+        transition: opacity 0.5s;
+    }
 }
+
+@media screen and (max-width: 992px) {
+    .galItem {
+        flex: 50%;
+    }
+    .galRow {
+        max-width: 600px;
+    }
+}
+
 .galLogo:hover, .galLogo:active {
     opacity:0;
     filter:alpha(opacity=0);
